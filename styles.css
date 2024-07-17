@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    background-color: #0D1A2D;
+/* // <weight>: Use a value from 100 to 900 */
+   font-family: "Outfit", sans-serif;
+}
+
+.card {
+    /* height: 552px   max-height: 662px    padding: 5px
+width: 312px    max-width:  364px     */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: #15273F;
+    padding: 1.5rem;
+    padding-bottom: 4rem;
+    border-radius: 20px;
+    height: 552px;
+    width: 316px;
+}
+
+.etherum-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* View Image */
+.view-image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+/* Box Green */
+.box-green {
+    width: 100%;
+    background-image: url("/Design-Files/images/icon-view.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsla(178, 100%, 50%,0.5);
+    position: absolute;
+    inset: 0;
+    top: 25px;
+    left: 25px;
+    width: 314px;
+    height: 314px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.box-green:hover {
+   cursor: pointer;
+   opacity: 1;
+}
+
+h2 {
+    color:hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h2:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 17px;
+    color:hsl(0, 0%, 60%);
+}
+
+p.Equi-text {
+    font-size: 18px;
+}
+
+.icon {
+    width: 13px;
+    height: 22px;
+}
+
+.icon-1 {
+    width: 33px;
+    height: 33px;
+    background-color: hsl(0, 50%, 99%);
+    border-radius: 15px;
+}
+
+.block1-p1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block1-p2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    color: hsl(178, 100%, 50%);
+}
+
+.block2-p1 {
+    margin-left: 35%;
+    display: inline-block;
+    /* vertical-align: top; */
+}
+
+.block2-p2 {
+    display: inline-block;
+    vertical-align: 11%;
+    margin-left: 1%;
+    color:hsl(0, 0%, 60%);
+}
+
+.custom-hr{
+    background-color: hsl(215, 32%, 27%);
+}
+
+.block3-p1 {
+    /* margin-left: 35%; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block3-p2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.text-1 {
+    color: hsl(215, 51%, 70%);
+}
+
+.text-2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-2:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);;
+}
+
+
+
+
+
